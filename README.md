@@ -1,6 +1,6 @@
-# CodeAlpha_Object_Detection_Tracking
+# Object Detection Tracker
 
-Object Detection and Tracking for the CodeAlpha Artificial Intelligence internship.
+Standalone object detection and tracking project.
 
 ## Features
 
@@ -41,6 +41,6 @@ python apps/object_detection_tracking_app.py --source sample_video.mp4 --model y
 
 ## Files
 
-- `codealpha_ai/tracking.py` - centroid tracker and drawing helper
+- `object_tracker/tracking.py` - centroid tracker and drawing helper
 - `apps/object_detection_tracking_app.py` - OpenCV/YOLO video runner
 - `tests/test_tracking.py` - automated tests

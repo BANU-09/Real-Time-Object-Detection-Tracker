@@ -1,6 +1,6 @@
 import unittest
 
-from codealpha_ai.tracking import CentroidTracker, Detection
+from object_tracker.tracking import CentroidTracker, Detection
 
 
 class TrackingTests(unittest.TestCase):

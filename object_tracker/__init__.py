@@ -1,4 +1,4 @@
-"""CodeAlpha object detection and tracking task package."""
+"""Object detection and tracking task package."""
 
 from .tracking import CentroidTracker, Detection, Track, draw_tracks
 

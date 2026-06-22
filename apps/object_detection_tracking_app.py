@@ -4,7 +4,7 @@ import sys
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-from codealpha_ai.tracking import CentroidTracker, Detection, draw_tracks
+from object_tracker.tracking import CentroidTracker, Detection, draw_tracks
 
 
 def detections_from_yolo(result) -> list[Detection]:
@@ -74,7 +74,7 @@ def run(source: str, model_path: str | None) -> None:
 
         tracks = tracker.update(detections)
         output = draw_tracks(frame, tracks)
-        cv2.imshow("CodeAlpha Object Detection and Tracking", output)
+        cv2.imshow("Object Detection and Tracking", output)
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from codealpha_ai.tracking import CentroidTracker, Detection
+from object_tracker.tracking import CentroidTracker, Detection
 
 
 def main() -> None:
